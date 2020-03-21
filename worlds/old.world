@@ -2607,10 +2607,10 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>388 593000000</sim_time>
-      <real_time>283 719000925</real_time>
-      <wall_time>1583351221 929496508</wall_time>
-      <iterations>281000</iterations>
+      <sim_time>496 884000000</sim_time>
+      <real_time>109 933919725</real_time>
+      <wall_time>1584392411 837090828</wall_time>
+      <iterations>108291</iterations>
       <model name='bookshelf'>
         <pose frame=''>9.42091 2.96411 0 0 -0 0</pose>
         <scale>1 1 1</scale>
