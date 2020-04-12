@@ -2607,10 +2607,10 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>620 40000000</sim_time>
-      <real_time>124 615978694</real_time>
-      <wall_time>1584792358 983101627</wall_time>
-      <iterations>123156</iterations>
+      <sim_time>703 154000000</sim_time>
+      <real_time>83 337884553</real_time>
+      <wall_time>1586373989 966581010</wall_time>
+      <iterations>83114</iterations>
       <model name='bookshelf'>
         <pose frame=''>9.42091 2.96411 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -2777,23 +2777,13 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='water_tower'>
-        <pose frame=''>3.70639 6.7614 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>3.70639 6.7614 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>7.00077 2.96612 28.2963 -4e-06 1.5698 -3.031</pose>
+        <pose frame=''>7.00077 2.96612 28.2963 -9e-06 1.5698 -3.031</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -3407,42 +3397,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>7.57168 2.60503 0 0 -0 0</pose>
-    </model>
-    <model name='water_tower'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://water_tower/meshes/water_tower.dae</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://water_tower/meshes/water_tower.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>3.70639 6.7614 0 0 -0 0</pose>
     </model>
     <model name='my_ball'>
       <link name='link'>
